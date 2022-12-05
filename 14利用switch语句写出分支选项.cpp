@@ -1,43 +1,43 @@
-/*#define _CRT_SECURE_NO_WARNINGS 1
+#define _CRT_SECURE_NO_WARNINGS 1
 
 #include<stdio.h>
 
 int main()
 {
-	int i;//¶¨ÒåÒ»¸öĞèÒª¸³ÖµµÄ
+	int i;//å®šä¹‰ä¸€ä¸ªéœ€è¦èµ‹å€¼çš„
 
-	printf("ÊäÈëÄãµÄÖµ£º\n");
+	printf("è¾“å…¥ä½ çš„å€¼ï¼š\n");
 	scanf("%d", &i);
 
-	switch (i)//ÎŞĞè¼Ó·ûºÅ
+	switch (i)//æ— éœ€åŠ ç¬¦å·
 	{
-		case 1://caseºó¼Ó£º
-			printf("ÖÜÒ»\n");
-			break;//Ã¿Ò»¸öcase½áÊøÒÔbreak
+		case 1://caseååŠ ï¼š
+			printf("å‘¨ä¸€\n");
+			break;//æ¯ä¸€ä¸ªcaseç»“æŸä»¥break
 		case 2:
-			printf("ÖÜ¶ş\n");
+			printf("å‘¨äºŒ\n");
 			break;
 		case 3:
-			printf("ÖÜÈı\n");
+			printf("å‘¨ä¸‰\n");
 			break;
 		case 4:
-			printf("ÖÜËÄ\n");
+			printf("å‘¨å››\n");
 			break;
 		case 5:
-			printf("ÖÜÎå\n");
+			printf("å‘¨äº”\n");
 			break;
 		case 6:
-			printf("ÖÜÁù\n");
+			printf("å‘¨å…­\n");
 			break;
 		case 7:
-			printf("ÖÜÈÕ\n");
+			printf("å‘¨æ—¥\n");
 			break;
-		default://Ä¬ÈÏÇé¿öÏÂ
-			printf("ÊäÈë´íÎó\n");
+		default://é»˜è®¤æƒ…å†µä¸‹
+			printf("è¾“å…¥é”™è¯¯\n");
 			break;
 	}	
 	return 0;
-}*/
+}
 
 /*#define _CRT_SECURE_NO_WARNINGS 1
 
@@ -48,7 +48,7 @@ int main()
 {
 	int m;
 
-	printf("ÊäÈëÖµ£º\n");
+	printf("è¾“å…¥å€¼ï¼š\n");
 	scanf("%d", &m);
 
 	switch (m)
@@ -57,15 +57,15 @@ int main()
 		case 2:
 		case 3:
 		case 4:
-		case 5://Ã»ÓĞÊä³öÖµºÍbreakÔò±íÊ¾1-5¶¼ÎªÒ»¸öbreak½áÎ²
-			printf("¹¤×÷\n");
+		case 5://æ²¡æœ‰è¾“å‡ºå€¼å’Œbreakåˆ™è¡¨ç¤º1-5éƒ½ä¸ºä¸€ä¸ªbreakç»“å°¾
+			printf("å·¥ä½œ\n");
 			break;
 		case 6:
 		case 7:
-			printf("Ë¯¾õ\n");
+			printf("ç¡è§‰\n");
 			break;
 		default:
-			printf("ÊäÈë´íÎó\n");
+			printf("è¾“å…¥é”™è¯¯\n");
 			break;
 	}
 	return 0;
@@ -79,9 +79,9 @@ int main()
 
 {
 	int a = 1;
-	int b = 2;//¶¨Òå³õÊ¼¸³Öµ
+	int b = 2;//å®šä¹‰åˆå§‹èµ‹å€¼
 
-	switch (a)//È¡aµÄÖµ
+	switch (a)//å–açš„å€¼
 	{
 		case 1:
 			a++;
@@ -112,7 +112,7 @@ int main()
 		default:
 			printf("******");
 			break;
-	}//ÔËËãÊä³ö½á¹û
-	printf("a=%d\nb=%d\n", a, b);//Êä³ö½á¹û
+	}//è¿ç®—è¾“å‡ºç»“æœ
+	printf("a=%d\nb=%d\n", a, b);//è¾“å‡ºç»“æœ
 	return 0;
 }*/
