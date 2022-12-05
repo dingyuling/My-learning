@@ -1,12 +1,12 @@
-//#define _CRT_SECURE_NO_WARNINGS 1
+#define _CRT_SECURE_NO_WARNINGS 1
 
 /*#include<stdio.h>
 
 int main()
 
 {
-	int ch = getchar();//¶¨Òå
-	putchar(ch);//Êä³ö
+	int ch = getchar();//å®šä¹‰
+	putchar(ch);//è¾“å‡º
 	return 0;
 }*/
 
@@ -14,40 +14,40 @@ int main()
 
 int main()
 {
-	int i = 0;//¶¨Òå¿ÕÖµ
-	while ((i = getchar()) != EOF)//Ñ­»·getchar²»ÎªEOF(-1)
+	int i = 0;//å®šä¹‰ç©ºå€¼
+	while ((i = getchar()) != EOF)//å¾ªç¯getcharä¸ä¸ºEOF(-1)
 	{
-		putchar(i);//Êä³öiµÄÖµ
+		putchar(i);//è¾“å‡ºiçš„å€¼
 	}
 	return 0;
 }*/
 
-/*#include<stdio.h>
+#include<stdio.h>
 
 int main()
 {
-	char i[10] = { 0 };//¶¨Òå¿Õ×Ö·û
-	printf("ÇëÊäÈëÄãÏëÒªµÄÖµ\n");
-	scanf("%s", i);//ÃûÎªiµÄµØÖ·ÄÚµÄ×Ö·û
-	printf("ÄãÈ·ÈÏÕâ¸öÖµÂğ£¨Y / N£©\n");
-	int m = 0;//¶¨Òå¿ÕÖµ
-	while ((m = getchar()) != '\n')//´úÈëÇå¿Õ»º´æ
+	char i[10] = { 0 };//å®šä¹‰ç©ºå­—ç¬¦
+	printf("è¯·è¾“å…¥ä½ æƒ³è¦çš„å€¼\n");
+	scanf("%s", i);//åä¸ºiçš„åœ°å€å†…çš„å­—ç¬¦
+	printf("ä½ ç¡®è®¤è¿™ä¸ªå€¼å—ï¼ˆY / Nï¼‰\n");
+	int m = 0;//å®šä¹‰ç©ºå€¼
+	while ((m = getchar()) != '\n')//ä»£å…¥æ¸…ç©ºç¼“å­˜
 	{
-		;//¿ÕÓï¾ä
+		;//ç©ºè¯­å¥
 	}
-	int off = getchar();//¸³m´ú³Ægetchar()
+	int off = getchar();//èµ‹mä»£ç§°getchar()
 	if (off == 'Y')//getchar(Y)=off=Y
 	{
-		printf("ÊäÈë³É¹¦\n");
+		printf("è¾“å…¥æˆåŠŸ\n");
 	}
 	else if (off == 'N')
 	{
-		printf("ÊäÈë½áÊø\n");
+		printf("è¾“å…¥ç»“æŸ\n");
 	}
 	else
 	{
-		printf("³ÌĞò´íÎó\n");
+		printf("ç¨‹åºé”™è¯¯\n");
 	}
 
 	return 0;
-}*/
+}
