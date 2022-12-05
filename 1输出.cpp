@@ -1,11 +1,11 @@
-/*#define _CRT_SECURE_NO_WARNINGS 1//scanfÎŞ·¨¶ÁÈ¡
+#define _CRT_SECURE_NO_WARNINGS 1//scanfæ— æ³•è¯»å–
 
 #include<stdio.h>
 
 int main()
 {
-	printf("±ÈÌØ\n");
+	printf("Hello world!\n");
 
 	return 0;
-}*/
-//ctrl+f5 ¿ìËÙ±àÒë  Êä³ö
+}
+//ctrl+f5 å¿«é€Ÿç¼–è¯‘  è¾“å‡º
