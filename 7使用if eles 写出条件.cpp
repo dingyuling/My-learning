@@ -29,4 +29,5 @@ int main()
 	}
 	return 0;
 }
+
 //使用if，else写出条件
