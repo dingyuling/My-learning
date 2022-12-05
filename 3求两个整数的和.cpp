@@ -1,4 +1,4 @@
-/*#define _CRT_SECURE_NO_WARNINGS 1
+#define _CRT_SECURE_NO_WARNINGS 1
 
 #include<stdio.h>
 
@@ -8,10 +8,10 @@ int main()
 	int b = 0;
 	int sum = 0;
 
-	scanf("%d %d", &a, &b);//ÊäÈëÊ±Òª¶ÔÓ¦¸ñÊ½£¬ÖĞ¼äÓĞ¿Õ¸ñ¼Ó¿Õ¸ñ£¬ÓĞ£¬¼Ó£¬//&È¡µØÖ·
-	sum = a + b;//È¡a,bµØÖ·µÄÊıÖµÏà¼ÓÎªsum
-	printf("sum=%d\n", sum);//Êä³ösum
+	scanf("%d %d", &a, &b);//è¾“å…¥æ—¶è¦å¯¹åº”æ ¼å¼ï¼Œä¸­é—´æœ‰ç©ºæ ¼åŠ ç©ºæ ¼ï¼Œæœ‰ï¼ŒåŠ ï¼Œ//&å–åœ°å€
+	sum = a + b;//å–a,båœ°å€çš„æ•°å€¼ç›¸åŠ ä¸ºsum
+	printf("sum=%d\n", sum);//è¾“å‡ºsum
 
 	return 0;
-}*/
-//´úÂëÇóÁ½¸öÕûÊıµÄºÍ
+}
+//ä»£ç æ±‚ä¸¤ä¸ªæ•´æ•°çš„å’Œ
