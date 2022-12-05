@@ -1,32 +1,31 @@
-/*#define _CRT_SECURE_NO_WARNINGS 
+#define _CRT_SECURE_NO_WARNINGS 
 
 #include<stdio.h>
 
 int main()
 {
 	int a = 10;
-	printf("%d\n", sizeof(int));//¼ÆËãint´óĞ¡
-	printf("%d\n", sizeof(a));//¼ÆËãa´óĞ¡£¬ÒòÎªaÊÇÓÉint¾ö¶¨ÀàĞÍ£¬ËùÒÔsizeof(a)Ò²¿ÉÒÔ¼ÆËã³öint´óĞ¡
+	printf("%d\n", sizeof(int));//è®¡ç®—intå¤§å°
+	printf("%d\n", sizeof(a));//è®¡ç®—aå¤§å°ï¼Œå› ä¸ºaæ˜¯ç”±intå†³å®šç±»å‹ï¼Œæ‰€ä»¥sizeof(a)ä¹Ÿå¯ä»¥è®¡ç®—å‡ºintå¤§å°
 	printf("%d\n", sizeof(char));
 	return 0;
-}*/
+}
 
 /*#include<stdio.h>
 
 int main()
 {
-	int arr[10] = { 0 };//10¸öÔªËØ
-	//intÕ¼±ÈËÄ×Ö½Ú
-	printf("%d\n", sizeof(arr));//Õâ¸öÊı×é½Ğarr£¬¼ÆËãarr²»¼Ó[]
+	int arr[10] = { 0 };//10ä¸ªå…ƒç´ 
+	//intå æ¯”å››å­—èŠ‚
+	printf("%d\n", sizeof(arr));//è¿™ä¸ªæ•°ç»„å«arrï¼Œè®¡ç®—arrä¸åŠ []
 
-	printf("%d\n", sizeof(arr[0]));//¼ÆËãµ¥¸öÊı¾İÔªËØµÄ´óĞ¡
+	printf("%d\n", sizeof(arr[0]));//è®¡ç®—å•ä¸ªæ•°æ®å…ƒç´ çš„å¤§å°
 
-	int num = sizeof(arr) / sizeof(arr[0]);//¶¨ÒåÒ»¸ö¿ÕÖµ¼ÆËãÓĞ¼¸¸öÊı¾İÔªËØ
+	int num = sizeof(arr) / sizeof(arr[0]);//å®šä¹‰ä¸€ä¸ªç©ºå€¼è®¡ç®—æœ‰å‡ ä¸ªæ•°æ®å…ƒç´ 
 
 	printf("%d\n", num);
 
 	return 0;
 }*/
 
-
-//¼ÆËãÊı¾İÀàĞÍ´óĞ¡
+//è®¡ç®—æ•°æ®ç±»å‹å¤§å°
