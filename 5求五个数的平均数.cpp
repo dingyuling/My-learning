@@ -1,4 +1,4 @@
-/*#define _CRT_SECURE_NO_WARNINGS 1
+#define _CRT_SECURE_NO_WARNINGS 1
 
 #include<stdio.h>
 
@@ -15,9 +15,9 @@ int main()
 	{
 		sum = sum + arr[i];
 	}
-	printf("sum=%d\n",sum);//Çó³öºÍ
-	int avg = sum / 5;//¶¨ÒåÒ»¸öÊıÖµ£¬ºÍ/5
-	printf("avg=%d\n", avg);//Çó³ö/
+	printf("sum=%d\n",sum);//æ±‚å‡ºå’Œ
+	int avg = sum / 5;//å®šä¹‰ä¸€ä¸ªæ•°å€¼ï¼Œå’Œ/5
+	printf("avg=%d\n", avg);//æ±‚å‡º/
 	return 0;
-}*/
-//ÇóÎå¸öÊıµÄÆ½¾ùÖµ
+}
+//æ±‚äº”ä¸ªæ•°çš„å¹³å‡å€¼
