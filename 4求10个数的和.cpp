@@ -18,4 +18,5 @@ int main()
 	printf("sum=%d\n", sum);//求出数组元素的值
 	return 0;
 }
+
 //求10个数的和
