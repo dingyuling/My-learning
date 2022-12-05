@@ -1,22 +1,22 @@
-/*#define _CRT_SECURE_NO_WARNINGS 1
+#define _CRT_SECURE_NO_WARNINGS 1
 
 #include<stdio.h>
 
 int main()
 
 {
-	int i=0;//³ËÊý
-	int j=0;//±»³ËÊý
-	int m=0;//³Ë»ý
+	int i=0;//ä¹˜æ•°
+	int j=0;//è¢«ä¹˜æ•°
+	int m=0;//ä¹˜ç§¯
 
 	for (i = 1; i <= 9; i++)
 	{
-		for (j = i; j <= 9; j++)//jÐè=i£¬²»È»»á¶à³öÒ»±é½á¹û
+		for (j = i; j <= 9; j++)//jéœ€=iï¼Œä¸ç„¶ä¼šå¤šå‡ºä¸€éç»“æžœ
 		{
 			m = i * j;
-			printf(" %d * %d = %d\t", i, j, m);//Êä³öÖµ
+			printf(" %d * %d = %d\t", i, j, m);//è¾“å‡ºå€¼
 		}
 		printf("\n");
 	}
 	return 0;
-}*/
+}
