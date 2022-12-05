@@ -1,12 +1,12 @@
-/*#define _CRT_SECURE_NO_WARNINGS 1
+#define _CRT_SECURE_NO_WARNINGS 1
 
 #include<stdio,h>
 int main()
 
 {
-	int age = 19;//age 年龄
+	int age = 19;//age 骞撮緞
 
-	double weight = 63.1;//weight 体重
+	double weight = 63.1;//weight 浣撻噸
 
 	age = age + 1;
 
@@ -17,5 +17,5 @@ int main()
 	printf("weight = %lf\n", weight);
 
 	return 0;
-}*/
-//变量及常量的应用
+}
+//鍙橀噺鍙婂父閲忕殑搴旂敤
