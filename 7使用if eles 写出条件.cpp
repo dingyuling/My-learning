@@ -1,32 +1,32 @@
-/*#define _CRT_SECURE_NO_WARNINGS 1
+#define _CRT_SECURE_NO_WARNINGS 1
 
 #include<stdio.h>
 
 int main()
 {
-	int a;//¶¨ÒåÒ»¸öÊı
-	printf("ÊäÈëÒ»¸öÖµ\n");
-	scanf("%d", &a);//È¡aµÄÖµ
+	int a;//å®šä¹‰ä¸€ä¸ªæ•°
+	printf("è¾“å…¥ä¸€ä¸ªå€¼\n");
+	scanf("%d", &a);//å–açš„å€¼
 	if (0 <= a && a < 60)
 	{
-		printf("²»¼°¸ñ\n");
+		printf("ä¸åŠæ ¼\n");
 	}
 	else if (60 <= a && a < 72)
 	{
-		printf("¼°¸ñ\n");
+		printf("åŠæ ¼\n");
 	}
 	else if (72 <= a && a < 90)
 	{
-		printf("Á¼ºÃ\n");
+		printf("è‰¯å¥½\n");
 	}
 	else if (90 <= a && a <= 100)
 	{
-		printf("ÓÅĞã\n");//Ìõ¼şÓë½á¹û£¬ÖĞ¼ä²»ÄÜÓÃaÖ±½ÓÁ¬½Ó£¬ÒªÓÃÓë&&»ò·ÇÖ®ÀàµÄ
+		printf("ä¼˜ç§€\n");//æ¡ä»¶ä¸ç»“æœï¼Œä¸­é—´ä¸èƒ½ç”¨aç›´æ¥è¿æ¥ï¼Œè¦ç”¨ä¸&&æˆ–éä¹‹ç±»çš„
 	}
-	else//else²»ÄÜÓĞÌõ¼şÏŞÖÆ£¬¼´elseºó²»ÄÜÓĞ()
+	else//elseä¸èƒ½æœ‰æ¡ä»¶é™åˆ¶ï¼Œå³elseåä¸èƒ½æœ‰()
 	{
-		printf("ÇëÖØĞÂÊäÈë\n");
+		printf("è¯·é‡æ–°è¾“å…¥\n");
 	}
 	return 0;
-}*/
-//Ê¹ÓÃif£¬elseĞ´³öÌõ¼ş
+}
+//ä½¿ç”¨ifï¼Œelseå†™å‡ºæ¡ä»¶
