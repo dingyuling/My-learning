@@ -20,4 +20,5 @@ int main()
 	printf("avg=%d\n", avg);//求出/
 	return 0;
 }
+
 //求五个数的平均值
