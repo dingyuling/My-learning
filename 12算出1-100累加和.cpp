@@ -1,4 +1,4 @@
-/*#define _CRT_SECURE_NO_WARNINGS 1
+#define _CRT_SECURE_NO_WARNINGS 1
 
 #include<stdio.h>
 
@@ -7,10 +7,10 @@ int main()
 {
 	int i;
 	int sum=0;
-	for (i = 1; i <= 100; i++)//i´ÓÒ»¿ªÊ¼Ñ­»·
+	for (i = 1; i <= 100; i++)//iä»Žä¸€å¼€å§‹å¾ªçŽ¯
 	{
-		sum = sum + i;//Ã¿´ÎÑ­»·µÄÖµÓësumÏà¼Ó
+		sum = sum + i;//æ¯æ¬¡å¾ªçŽ¯çš„å€¼ä¸Žsumç›¸åŠ 
 	}
-	printf("%d\n", sum);//Êä³öÁ½ÊýµÄºÍ
+	printf("%d\n", sum);//è¾“å‡ºä¸¤æ•°çš„å’Œ
 	return 0;
-}*/
+}
