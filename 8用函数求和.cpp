@@ -1,4 +1,4 @@
-/*#define _CRT_SECURE_NO_WARNINGS 1
+#define _CRT_SECURE_NO_WARNINGS 1
 
 #include<stdio.h>
 
@@ -6,32 +6,32 @@ int main()
 {
 	int x;
 	int y;
-	scanf("%d %d", &x, &y);//È¡x,yµØÖ·µÄÖµÔËËãº¯Êı
-	int add = x + y;//¶¨ÒåÒ»¸öº¯Êıadd£¬ÆäÖµÎªx+y
+	scanf("%d %d", &x, &y);//å–x,yåœ°å€çš„å€¼è¿ç®—å‡½æ•°
+	int add = x + y;//å®šä¹‰ä¸€ä¸ªå‡½æ•°addï¼Œå…¶å€¼ä¸ºx+y
 
-	int sum = 0;//¶¨ÒåºÍÎªsumÎª0
-	sum = sum + add;//ºÍ¼Óº¯ÊıÎª½á¹ûsum
-	printf("sum=d\n",sum);//µÃ³ö½á¹û
+	int sum = 0;//å®šä¹‰å’Œä¸ºsumä¸º0
+	sum = sum + add;//å’ŒåŠ å‡½æ•°ä¸ºç»“æœsum
+	printf("sum=d\n",sum);//å¾—å‡ºç»“æœ
 	return 0;
-}*/
+}
 
 /*#define _CRT_SECURE_NO_WARNINGS 1
 
 #include<stdio.h>
 
-int add(int x, int y)//¶¨Òåº¯Êı£¨¶¨ÒåÁ½¸ö¿ÕÖµ£©
+int add(int x, int y)//å®šä¹‰å‡½æ•°ï¼ˆå®šä¹‰ä¸¤ä¸ªç©ºå€¼ï¼‰
 {
 	int c = 0;
 	c = x + y;
-	return c;//Êä³öÖµÎªc
+	return c;//è¾“å‡ºå€¼ä¸ºc
 }
 int main()
 {
 	int num1 = 0;
 	int num2 = 0;
-	scanf("%d %d", &num1, &num2);//È¡numµÄµØÖ·´úÈë
-	int sum = add(num1, num2);//addÄÚÔËËã´úÈë½øx,y£¬¼´ÔËËãc=x+y=num1+num2=sum
+	scanf("%d %d", &num1, &num2);//å–numçš„åœ°å€ä»£å…¥
+	int sum = add(num1, num2);//addå†…è¿ç®—ä»£å…¥è¿›x,yï¼Œå³è¿ç®—c=x+y=num1+num2=sum
 	printf("%d\n",sum);
 	return 0;
 }*/
-//ÀûÓÃº¯ÊıÇóºÍ
+//åˆ©ç”¨å‡½æ•°æ±‚å’Œ
