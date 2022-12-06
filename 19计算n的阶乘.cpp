@@ -1,17 +1,17 @@
-/*#define _CRT_SECURE_NO_WARNINGS 1
+#define _CRT_SECURE_NO_WARNINGS 1
 
 #include<stdio.h>
 
 int main()
 {
-	int i = 0;//Êý
-	int n = 0;//nµÄÖµ
-	scanf("%d", &n);//È¡nÊäÈë
-	int c = 1;//´Ó1¿ªÊ¼*
-	for (i = 1; i <= n; i++)//i´ÓÒ»¿ªÊ¼
+	int i = 0;//æ•°
+	int n = 0;//nçš„å€¼
+	scanf("%d", &n);//å–nè¾“å…¥
+	int c = 1;//ä»Ž1å¼€å§‹*
+	for (i = 1; i <= n; i++)//iä»Žä¸€å¼€å§‹
 	{
 		c *= i;//c=c*i
-		printf("%d\t", c);//Êä³öc
+		printf("%d\t", c);//è¾“å‡ºc
 	}
 	return 0;
-}*/
+}
