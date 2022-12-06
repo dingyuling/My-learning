@@ -1,37 +1,37 @@
-/*#define _CRT_SECURE_NO_WARNINGS 1
+#define _CRT_SECURE_NO_WARNINGS 1
 
 #include<stdio.h>
-//#include<string.h>//¼ÆËãÒıÓÃstrlen
-#include<windows.h>//Ê±¼äSleep
+//#include<string.h>//è®¡ç®—å¼•ç”¨strlen
+#include<windows.h>//æ—¶é—´Sleep
 
 int main()
 {
 	char ch1[] = { "The world is not beautiful" };
-	char ch2[] = { "**************************" };//Á½¶Î×Ö·û´®
+	char ch2[] = { "**************************" };//ä¸¤æ®µå­—ç¬¦ä¸²
 
-	int l = 0;//×ó±ßµØÖ·Îª1
+	int l = 0;//å·¦è¾¹åœ°å€ä¸º1
 	int z = sizeof(ch1) / sizeof(ch1[0]);
-	//int i = strlen(ch1 - 1);//¼ÆËãÓĞ¶àÉÙ¸ö×Ö·û
+	//int i = strlen(ch1 - 1);//è®¡ç®—æœ‰å¤šå°‘ä¸ªå­—ç¬¦
 	int r = z - 1;
-	//int r = i - 1;//ÓÒ±ßµØÖ·
+	//int r = i - 1;//å³è¾¹åœ°å€
 	printf("%d\n", z);
-	//printf("%d\n", i);//¼ÆËã
+	//printf("%d\n", i);//è®¡ç®—
 
 	while (l <= r)
 	{
 		ch2[l] = ch1[l];
-		ch2[r] = ch1[r];//Á½¶Î×Ö·û´®µÄ×Ö·ûÌæ»»
+		ch2[r] = ch1[r];//ä¸¤æ®µå­—ç¬¦ä¸²çš„å­—ç¬¦æ›¿æ¢
 		
-		printf("  %s\n", ch2);//Êä³öch2
+		printf("  %s\n", ch2);//è¾“å‡ºch2
 
-		Sleep(1000);//µ¥Î»ºÁÃë
-		system("cls");//Çå¿ÕÆÁÄ»
+		Sleep(1000);//å•ä½æ¯«ç§’
+		system("cls");//æ¸…ç©ºå±å¹•
 
-		l++;//µØÖ·Î»+1
+		l++;//åœ°å€ä½+1
 		r--;//-1
 	}
 	
-	printf("  %s\n", ch2);//×îºóÊä³ö£¬²»È»ÆÁÄ»¿Õ°×
+	printf("  %s\n", ch2);//æœ€åè¾“å‡ºï¼Œä¸ç„¶å±å¹•ç©ºç™½
 
 	return 0;
-}*/
+}
