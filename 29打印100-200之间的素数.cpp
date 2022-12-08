@@ -1,38 +1,38 @@
-/*#define _CRT_SECURE_NO_WARNINGS 1
+#define _CRT_SECURE_NO_WARNINGS 1
 
 #include<stdio.h>
 
-//ÖÊÊý£¬ÓÖ³ÆËØÊý£¬Ö¸ÔÚÒ»¸ö´óÓÚ1µÄ×ÔÈ»ÊýÖÐ£¬³ýÁË1ºÍ´ËÕûÊý×ÔÉíÍâ£¬ÎÞ·¨±»ÆäËû×ÔÈ»ÊýÕû³ýµÄÊý
+//è´¨æ•°ï¼Œåˆç§°ç´ æ•°ï¼ŒæŒ‡åœ¨ä¸€ä¸ªå¤§äºŽ1çš„è‡ªç„¶æ•°ä¸­ï¼Œé™¤äº†1å’Œæ­¤æ•´æ•°è‡ªèº«å¤–ï¼Œæ— æ³•è¢«å…¶ä»–è‡ªç„¶æ•°æ•´é™¤çš„æ•°
 
 
-//ËØÊýÓÖ³ÆÖÊÊý£¬ÊÇÖ¸ÔÚ´óÓÚ1µÄ×ÔÈ»ÊýÖÐ£¬³ýÁË1ºÍËü±¾ÉíÒÔÍâÃ»ÓÐÆäËûÒòÊýµÄ×ÔÈ»Êý
+//ç´ æ•°åˆç§°è´¨æ•°ï¼Œæ˜¯æŒ‡åœ¨å¤§äºŽ1çš„è‡ªç„¶æ•°ä¸­ï¼Œé™¤äº†1å’Œå®ƒæœ¬èº«ä»¥å¤–æ²¡æœ‰å…¶ä»–å› æ•°çš„è‡ªç„¶æ•°
 
 int main()
 
 {
-	int s = 0;//ËØÊý
-	int y = 0;//ÒòÊý
-	int g = 0;//¸öÊý
+	int s = 0;//ç´ æ•°
+	int y = 0;//å› æ•°
+	int g = 0;//ä¸ªæ•°
 
-	printf("ËØÊýÓÐ\n");
+	printf("ç´ æ•°æœ‰\n");
 
-	for (s = 100; s <= 200; s++)//100-200Ñ­»·
+	for (s = 100; s <= 200; s++)//100-200å¾ªçŽ¯
 	{
-		for (y = 2; y < s; y++)//1ºÍ±¾ÉíÈ¥³ýy!=1ºÍy!=s
+		for (y = 2; y < s; y++)//1å’Œæœ¬èº«åŽ»é™¤y!=1å’Œy!=s
 		{
-			if (s % y == 0)//Èç¹û³ý¾¡£¬²»ÎªËØÊý
+			if (s % y == 0)//å¦‚æžœé™¤å°½ï¼Œä¸ä¸ºç´ æ•°
 			{
 				//printf("%d\t", s);
 				break;
 			}
 		}
-		if (y == s)//´Ë¿Ìy==s£¬Õû¸öÑ­»·Íê±Ï£¬Ò²Ã»ÓÐ¿ÉÒÔ³ý¾¡µÄÊý£¬ÎªËØÊý
+		if (y == s)//æ­¤åˆ»y==sï¼Œæ•´ä¸ªå¾ªçŽ¯å®Œæ¯•ï¼Œä¹Ÿæ²¡æœ‰å¯ä»¥é™¤å°½çš„æ•°ï¼Œä¸ºç´ æ•°
 		{
 			printf("%d\t", s);
 			g++;
 		}
 	}
 	printf("\n");
-	printf("ËØÊýÓÐ%d\n¸ö", g);
+	printf("ç´ æ•°æœ‰%d\nä¸ª", g);
 	return 0;
-}*/
+}
