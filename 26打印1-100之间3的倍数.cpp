@@ -1,16 +1,16 @@
-/*#define _CRT_SECURE_NO_WARNINGS 1
+#define _CRT_SECURE_NO_WARNINGS 1
 
 #include<stdio.h>
 
 int main()
 {
 	int i = 0;
-	for (i = 1; i <= 100; i++)//i´Ó1¿ªÊ¼Ñ­»·£¬Ã¿´Î¼Ó1£¬Ö±µ½100
+	for (i = 1; i <= 100; i++)//iä»Ž1å¼€å§‹å¾ªçŽ¯ï¼Œæ¯æ¬¡åŠ 1ï¼Œç›´åˆ°100
 	{
-		if (i % 3 == 0)//iÄ£3µÈÓÚÁã
+		if (i % 3 == 0)//iæ¨¡3ç­‰äºŽé›¶
 		{
 			printf("%d\t", i);
 		}
 	}
 	return 0;
-}*/
+}
