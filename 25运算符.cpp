@@ -1,4 +1,4 @@
-/*#define _CRT_SECURE_NO_WARNINGS 1
+#define _CRT_SECURE_NO_WARNINGS 1
 
 #include<stdio.h>
 
@@ -8,12 +8,12 @@ int main()
 	int i = 0;
 	for (i = 0; i < 10; i++)
 	{
-		//if (i = 5)//赋值运算符
-		if (i == 5)//等于
+		//if (i = 5)//赂鲁脰碌脭脣脣茫路没
+		if (i == 5)//碌脠脫脷
 		{
 			printf("%d", i);
 		}
 
 	}
 	return 0;
-}*/
+}
