@@ -1,14 +1,14 @@
-/*#define _CRT_SECURE_NO_WARNINGS 1
+#define _CRT_SECURE_NO_WARNINGS 1
 
 #include<stdio.h>
-*/
-/*void first()
+
+void first()
 {
 	int i = 0;
-	int j = 0;//¶¨ÒåÁ½¸ö¿ÕÖµ
-	printf("ÇëÊäÈëÁ½¸öÊý\n");
-	scanf("%d%d", &i, &j);//¸³Öµ
-	int max = 0;//¿ÕÖµ¸³¸ø×î´ó¹«Ô¼Êý
+	int j = 0;//å®šä¹‰ä¸¤ä¸ªç©ºå€¼
+	printf("è¯·è¾“å…¥ä¸¤ä¸ªæ•°\n");
+	scanf("%d%d", &i, &j);//èµ‹å€¼
+	int max = 0;//ç©ºå€¼èµ‹ç»™æœ€å¤§å…¬çº¦æ•°
 	if (i < j)
 	{
 		max = i;
@@ -19,34 +19,34 @@
 	}
 	while (1)
 	{
-		if (i % max == 0 && j % max == 0)//Í¬Ê±ÄÜ±»Õû³ý
+		if (i % max == 0 && j % max == 0)//åŒæ—¶èƒ½è¢«æ•´é™¤
 		{
-			printf("×î´ó¹«Ô¼ÊýÎª\n%d\n", max);
-			break;//Ìø³öÑ­»·
+			printf("æœ€å¤§å…¬çº¦æ•°ä¸º\n%d\n", max);
+			break;//è·³å‡ºå¾ªçŽ¯
 		}
-		max--;//Ã¿´ÎÑ­»·max-1
+		max--;//æ¯æ¬¡å¾ªçŽ¯max-1
 	}
-}*/
+}
 
 /*void second()
 {
 	int i = 0;
-	int j = 0;//¶¨ÒåÁ½¸ö¿ÕÖµ
-	printf("ÇëÊäÈëÁ½¸öÊý\n");
-	scanf("%d%d", &i, &j);//È¡¸³Öµ
-	int max = 0;//×î´óÊý£¬¹«Ô¼Êý¿ÕÖµ
-	while (max = i % j)//ÏàÓÚÖ®Êý
+	int j = 0;//å®šä¹‰ä¸¤ä¸ªç©ºå€¼
+	printf("è¯·è¾“å…¥ä¸¤ä¸ªæ•°\n");
+	scanf("%d%d", &i, &j);//å–èµ‹å€¼
+	int max = 0;//æœ€å¤§æ•°ï¼Œå…¬çº¦æ•°ç©ºå€¼
+	while (max = i % j)//ç›¸äºŽä¹‹æ•°
 	{
 		i = j;
 		j = max;
 	}
-	printf("×î´ó¹«Ô¼ÊýÎª\n%d\n", j);
+	printf("æœ€å¤§å…¬çº¦æ•°ä¸º\n%d\n", j);
 }
-//Õ·×ªÏà³ý·¨
+//è¾—è½¬ç›¸é™¤æ³•
 */
-/*int main()
+int main()
 {
-	//first();
-	second();
+	first();
+	//second();
 	return 0;
-}*/
+}
