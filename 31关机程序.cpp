@@ -1,28 +1,28 @@
-/*#define _CRT_SECURE_NO_WARNINGS 1
+#define _CRT_SECURE_NO_WARNINGS 1
 
 #include<stdio.h>
-#include<string.h>//±È½Ï×Ö·û´®
-#include<stdlib.h>//µ÷ÓÃÏµÍ³
+#include<string.h>//æ¯”è¾ƒå­—ç¬¦ä¸²
+#include<stdlib.h>//è°ƒç”¨ç³»ç»Ÿ
 
 int main()
 {
 	char ch[20] = { 0 };
 
-	printf("Çë×¢Òâ£¬ÄãµÄµçÄÔ½«ÔÚ60ÃëÄÚ¹Ø»ú£¬ÇëÔÚ60ÃëÄÚÊäÈë¡°Ó£Áé×î×îÀ÷º¦£¡¡±£¬·ñÔò½«»á¹Ø»ú¡£\n");
-	system("shutdown -s -t 60");//¼ÆËã»ú½«ÔÚ60ÃëÄÚ¹Ø»ú£¬ÉèÖÃ¹Ø»ú/ÉèÖÃÊ±¼ä/ÉèÖÃ¶àÉÙÊ±¼ä
+	printf("è¯·æ³¨æ„ï¼Œä½ çš„ç”µè„‘å°†åœ¨60ç§’å†…å…³æœºï¼Œè¯·åœ¨60ç§’å†…è¾“å…¥â€œæ¨±çµæœ€æœ€åŽ‰å®³ï¼â€ï¼Œå¦åˆ™å°†ä¼šå…³æœºã€‚\n");
+	system("shutdown -s -t 60");//è®¡ç®—æœºå°†åœ¨60ç§’å†…å…³æœºï¼Œè®¾ç½®å…³æœº/è®¾ç½®æ—¶é—´/è®¾ç½®å¤šå°‘æ—¶é—´
 
 tb:
 	scanf("%s", ch);
-	if (strcmp(ch, "Ó£Áé×î×îÀ÷º¦£¡") == 0)
+	if (strcmp(ch, "æ¨±çµæœ€æœ€åŽ‰å®³ï¼") == 0)
 	{
 		system("shutdown -a");
-		printf("ºÃÂïºÃÂï£¬È¡Ïû¹Ø»ú£¡\n");
+		printf("å¥½å˜›å¥½å˜›ï¼Œå–æ¶ˆå…³æœºï¼\n");
 
 	}
 	else
 	{
-		printf("»¹ÏëÃÉ»ì¹ý¹Ø£¿£¿£¿\n");
-		goto tb;//È¥tbÄÇÀï
+		printf("è¿˜æƒ³è’™æ··è¿‡å…³ï¼Ÿï¼Ÿï¼Ÿ\n");
+		goto tb;//åŽ»tbé‚£é‡Œ
 	}
 	return 0;
-}*/
+}
