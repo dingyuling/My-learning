@@ -1,18 +1,18 @@
-/*#define _CRT_SECURE_NO_WARNINGS 1
+#define _CRT_SECURE_NO_WARNINGS 1
 
 #include<stdio.h>
 
-void function(int* h)//×Ô¶¨Òåº¯Êı
+void function(int* h)//è‡ªå®šä¹‰å‡½æ•°
 {
-	(*h)++;//×¢ÒâÓÅÏÈ¼¶¼ÓÀ¨ºÅ
+	(*h)++;//æ³¨æ„ä¼˜å…ˆçº§åŠ æ‹¬å·
 }
 
 int main(void)
 {
-	int frequency = 0;//³õÊ¼´ÎÊı
+	int frequency = 0;//åˆå§‹æ¬¡æ•°
 
-	function(&frequency);//Êµ²ÎÏëÒª¸Ä±ä¾ÍÒªÈ¡µØÖ·
-	printf("%d\t", frequency);//Êä³ö
+	function(&frequency);//å®å‚æƒ³è¦æ”¹å˜å°±è¦å–åœ°å€
+	printf("%d\t", frequency);//è¾“å‡º
 
 	function(&frequency);
 	printf("%d\t", frequency); 
@@ -21,4 +21,4 @@ int main(void)
 	printf("%d\t", frequency);
 
 	return 0;
-}*/
+}
