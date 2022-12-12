@@ -52,3 +52,25 @@ int main()
 	printf("%s\n", ch1);
 	return 0;
 }*/
+
+/*char b_j(char* x, char* y)
+{
+	char *a = x;//定义一个地址变量，因为函数的生命周期是函数本身，将y取x的值赋给地址a
+	while ((*x++ = *y++) != '\0');//因为字符串后面默认带\0，所以不等于\0，地址加一赋值
+	return *a;//输出字符串地址a
+}
+
+int main(void)
+{
+	char ch1[20] = { 0 };//空数组
+	char ch2[] = "hello";//一个字符串
+
+	strlen(ch2);//计算字符串长度
+	printf("%s %s\n", ch1, ch2);
+
+	b_j(ch1, ch2);
+	//strcpy(ch1, ch2);//打印
+
+	printf("%s\n", ch1);
+	return 0;
+}*/
