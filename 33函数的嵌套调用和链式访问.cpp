@@ -1,11 +1,11 @@
-/*#define _CRT_SECURE_NO_WARNINGS 1
+#define _CRT_SECURE_NO_WARNINGS 1
 
 #include<stdio.h>
-#include<string.h>*/
+#include<string.h>
 
-/*void y_1()
+void y_1()
 {
-	printf("ÃüÔË\n");
+	printf("å‘½è¿\n");
 }
 void y_2()
 {
@@ -14,14 +14,14 @@ void y_2()
 void y_3()
 {
 	return y_2();
-}//×Ô¶¨ÒåÈı¸öº¯Êı
+}//è‡ªå®šä¹‰ä¸‰ä¸ªå‡½æ•°
 
 int main()
 {
-	y_3();//Êä³ö
+	y_3();//è¾“å‡º
 
 	return 0;
-}*/
+}
 
 
 /*int y_4(int* x)
@@ -33,21 +33,21 @@ int main()
 int main()
 {
 	int y = 0;
-	y_4(&y);//Êµ²Î¸Ä±äĞèÈ¡µØÖ·
-	printf("%d", printf("%d", printf("%d", printf("%d", y))));//Ç¶Ì×Ê¹ÓÃ
-	//Êä³ö½á¹û£¬Èç¹ûprintf´òÓ¡³öÕûÊı£¬ÔòÏÂÒ»¸öprintf¾Í»á´òÓ¡³öÆÁÄ»ÉÏÊı×ÖµÄ¸öÊı
+	y_4(&y);//å®å‚æ”¹å˜éœ€å–åœ°å€
+	printf("%d", printf("%d", printf("%d", printf("%d", y))));//åµŒå¥—ä½¿ç”¨
+	//è¾“å‡ºç»“æœï¼Œå¦‚æœprintfæ‰“å°å‡ºæ•´æ•°ï¼Œåˆ™ä¸‹ä¸€ä¸ªprintfå°±ä¼šæ‰“å°å‡ºå±å¹•ä¸Šæ•°å­—çš„ä¸ªæ•°
 	return 0;
 }*/
 
 /*int main()
 {
-	char ch1[20] = { 0 };//¿ÕÊı×é
-	char ch2[] = "hello";//Ò»¸ö×Ö·û´®
+	char ch1[20] = { 0 };//ç©ºæ•°ç»„
+	char ch2[] = "hello";//ä¸€ä¸ªå­—ç¬¦ä¸²
 
-	strlen(ch2);//¼ÆËã×Ö·û´®³¤¶È
+	strlen(ch2);//è®¡ç®—å­—ç¬¦ä¸²é•¿åº¦
 	printf("%s %s\n", ch1, ch2);
 
-	strcpy(ch1, ch2);//´òÓ¡
+	strcpy(ch1, ch2);//æ‰“å°
 
 	printf("%s\n", ch1);
 	return 0;
