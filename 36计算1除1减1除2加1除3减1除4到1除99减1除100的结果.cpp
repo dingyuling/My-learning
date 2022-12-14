@@ -1,26 +1,26 @@
-//#define _CRT_SECURE_NO_WARNINGS 1
+#define _CRT_SECURE_NO_WARNINGS 1
 
-//#include<stdio.h>
-/*
+#include<stdio.h>
+
 int main(void)
 {
 	int i = 1.0;
-	double sum = 0.0;//¸¡µãĞÍ¼ÓĞ¡Êıµã
+	double sum = 0.0;//æµ®ç‚¹å‹åŠ å°æ•°ç‚¹
 
 	for (i = 1; i <= 100; i++)
 	{
-		if (i % 2 == 0)//Õâ¸öÊı³ı2Ö®ºóÃ»ÓĞÓàÊı
+		if (i % 2 == 0)//è¿™ä¸ªæ•°é™¤2ä¹‹åæ²¡æœ‰ä½™æ•°
 		{
-			sum = sum - 1.0 / i;//¸¡µãĞÍ¼ÓĞ¡Êıµã
+			sum = sum - 1.0 / i;//æµ®ç‚¹å‹åŠ å°æ•°ç‚¹
 		}
-		else//·´Ö®
+		else//åä¹‹
 		{
-			sum = sum + 1.0 / i;//¸¡µãĞÍ¼ÓĞ¡Êıµã
+			sum = sum + 1.0 / i;//æµ®ç‚¹å‹åŠ å°æ•°ç‚¹
 		}
 	}
-	printf("%lf\n", sum);//Êä³ö
+	printf("%lf\n", sum);//è¾“å‡º
 	return 0;
-}*/
+}
 
 /*
 int main(void)
@@ -32,7 +32,7 @@ int main(void)
 	for (i = 1; i <= 100; i++)
 	{
 		sum += c * 1.0 / i;
-		c = -c;//ÀûÓÃÕı¸ºÊı¼Ó¼õµÖÏû
+		c = -c;//åˆ©ç”¨æ­£è´Ÿæ•°åŠ å‡æŠµæ¶ˆ
 	}
 	printf("%lf\n", sum);
 	return 0;
