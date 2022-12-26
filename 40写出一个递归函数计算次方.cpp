@@ -1,12 +1,12 @@
-/*#define _CRT_SECURE_NO_WARNINGS 1
+#define _CRT_SECURE_NO_WARNINGS 1
 
 #include<stdio.h>
 
 int c_f(int x,int y)
 {
-	if (y > 1)//ÅĞ¶ÏÓĞÃ»ÓĞÏà³ËÊı
+	if (y > 1)//åˆ¤æ–­æœ‰æ²¡æœ‰ç›¸ä¹˜æ•°
 	{
-		return x * c_f(x, y - 1);//Ã¿´Î´ÎÊı-1
+		return x * c_f(x, y - 1);//æ¯æ¬¡æ¬¡æ•°-1
 	}
 	else if (y == 0)
 	{
@@ -20,17 +20,17 @@ int c_f(int x,int y)
 
 int main(void)
 {
-	int c = 0;//Êı
-	printf("ÄãÏëÒªµÄÊı£º\n");
+	int c = 0;//æ•°
+	printf("ä½ æƒ³è¦çš„æ•°ï¼š\n");
 	scanf("%d", &c);
 	printf("\n");
-	int n = 0;//´Î·½
-	printf("ÄãÏëÒª¼¸´Î·½£º\n");
+	int n = 0;//æ¬¡æ–¹
+	printf("ä½ æƒ³è¦å‡ æ¬¡æ–¹ï¼š\n");
 	scanf("%d", &n);
 	printf("\n");
 
-	int XX = c_f(c, n);//Êä³ö½á¹û
+	int XX = c_f(c, n);//è¾“å‡ºç»“æœ
 
-	printf("´Î·½ÊÇ£º\n%d\n", XX);
+	printf("æ¬¡æ–¹æ˜¯ï¼š\n%d\n", XX);
 	return 0;
-}*/
+}
