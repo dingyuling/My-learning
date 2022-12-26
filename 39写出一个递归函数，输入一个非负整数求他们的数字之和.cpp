@@ -1,12 +1,12 @@
-/*#define _CRT_SECURE_NO_WARNINGS 1
+#define _CRT_SECURE_NO_WARNINGS 1
 
 #include<stdio.h>
 
 int j_s(int x)
 {
-	if (x > 9)//¸úÊäÈëÒ»¸öÕûÊý£¬½«ËüÅÅÁÐÀàËÆ
+	if (x > 9)//è·Ÿè¾“å…¥ä¸€ä¸ªæ•´æ•°ï¼Œå°†å®ƒæŽ’åˆ—ç±»ä¼¼
 	{
-		return x % 10 + j_s(x/10);//½á¹ûÏà¼Ó
+		return x % 10 + j_s(x/10);//ç»“æžœç›¸åŠ 
 	}
 	else
 	{
@@ -19,8 +19,8 @@ int main(void)
 	int cz = 0;
 	scanf("%d", &cz);
 
-	int sum = j_s(cz);//Êä³öºÍ
+	int sum = j_s(cz);//è¾“å‡ºå’Œ
 
 	printf("%d\n", sum);
 	return 0;
-}*/
+}
