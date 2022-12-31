@@ -1,12 +1,12 @@
-/*#define _CRT_SECURE_NO_WARNINGS 1
+#define _CRT_SECURE_NO_WARNINGS 1
 
 #include<stdio.h>
 
 void z_p(int a[], int x)
 {
-	int i = 0;//±È½ÏÂÖÊı
-	int j = 0;//Ã¿ÂÖ±È½Ï´ÎÊı/Ïàµ±ÓÚÏÂ±ê·ÃÎÊ
-	int z_h = 0;//Ôİ´æÖµ
+	int i = 0;//æ¯”è¾ƒè½®æ•°
+	int j = 0;//æ¯è½®æ¯”è¾ƒæ¬¡æ•°/ç›¸å½“äºä¸‹æ ‡è®¿é—®
+	int z_h = 0;//æš‚å­˜å€¼
 	for (i = 1; i < x; i++)
 	{
 		for (j = 0; j < x - i; j++)
@@ -26,10 +26,10 @@ void z_p(int a[], int x)
 }
 int main(void)
 {
-	int arr[] = { 10,9,8,7,6,5,4,3,2,1 };//ÊäÈëËÄ¸öÊı£¬¿ÉÒÔ×Ô¶¨Òåscanf
-	int n = sizeof(arr) / sizeof(arr[0]);//¼ÆËãÊı×éÔªËØ¸öÊı
+	int arr[] = { 10,9,8,7,6,5,4,3,2,1 };//è¾“å…¥å››ä¸ªæ•°ï¼Œå¯ä»¥è‡ªå®šä¹‰scanf
+	int n = sizeof(arr) / sizeof(arr[0]);//è®¡ç®—æ•°ç»„å…ƒç´ ä¸ªæ•°
 	printf("%d\n", n);
 
 	z_p(arr,n);
 	return 0;
-}*/
+}
