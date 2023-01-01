@@ -1,8 +1,8 @@
 #define _CRT_SECURE_NO_WARNINGS 1
 
 #include<stdio.h>
-#include<stdlib.h>//ÒýÓÃÏµÍ³
-#include<time.h>//Ê±¼ä´Á
+#include<stdlib.h>//å¼•ç”¨ç³»ç»Ÿ
+#include<time.h>//æ—¶é—´æˆ³
 
 void pan(char qp[3][3], int m, int n)
 {
@@ -36,12 +36,12 @@ void pan(char qp[3][3], int m, int n)
 
 void player(char qp[3][3], int m, int n)
 {
-	printf("Íæ¼Ò...\n");
+	printf("çŽ©å®¶...\n");
 	while (1)
 	{
 		int x = 0;
 		int y = 0;
-		printf("ÇëÊäÈë...\n");
+		printf("è¯·è¾“å…¥...\n");
 		scanf("%d %d", &x, &y);
 		if ((x >= 1 && x <= m) && (y >= 1 && y <= n))
 		{
@@ -52,12 +52,12 @@ void player(char qp[3][3], int m, int n)
 			}
 			else
 			{
-				printf("×ø±êÕ¼ÓÃ£¬ÇëÖØÐÂÊäÈë...\n");
+				printf("åæ ‡å ç”¨ï¼Œè¯·é‡æ–°è¾“å…¥...\n");
 			}
 		}
 		else
 		{
-			printf("ÊäÈë´íÎó£¬ÇëÖØÐÂÊäÈë...\n");
+			printf("è¾“å…¥é”™è¯¯ï¼Œè¯·é‡æ–°è¾“å…¥...\n");
 		}
 	}
 }
@@ -66,7 +66,7 @@ void pcer(char qp[3][3], int m, int n)
 {
 	int x = 0;
 	int y = 0;
-	printf("µçÄÔ...\n");
+	printf("ç”µè„‘...\n");
 	while (1)
 	{
 		x = rand() % m;
@@ -129,7 +129,7 @@ char winer(char qp[3][3], int m, int n)
 	return 'f';
 }
 
-void menu()//¶¨Òå²Ëµ¥
+void menu()//å®šä¹‰èœå•
 {
 	printf("              \n");
 	printf(" 1,Play game! \n");
@@ -167,49 +167,49 @@ void game()
 
 	if (ch == 'o')
 	{
-		printf("Íæ¼ÒÓ®...\n");
+		printf("çŽ©å®¶èµ¢...\n");
 	}
 	else if (ch == 'x')
 	{
-		printf("µçÄÔÓ®...\n");
+		printf("ç”µè„‘èµ¢...\n");
 	}
 	else
 	{
-		printf("Æ½¾Ö...\n");
+		printf("å¹³å±€...\n");
 	}
 	pan(qp, 3, 3);
 }
 
 int main()
 {
-	int i = 0;//²Ëµ¥Ñ¡Ïî
-	int j = 1;//¶¨ÒåÒ»¸ö²»ÎªÁãµÄ½áÊøÖµ
+	int i = 0;//èœå•é€‰é¡¹
+	int j = 1;//å®šä¹‰ä¸€ä¸ªä¸ä¸ºé›¶çš„ç»“æŸå€¼
 
 	srand((unsigned int)time(NULL));
 
 	do
 	{
-		printf("»¶Ó­À´µ½ÓÎÏ·£¬ÇëÑ¡Ôñ...(1/2)\n");
-		menu();//ÒýÓÃÈ«¾Ö²Ëµ¥
-		scanf("%d", &i);//Ñ¡Ïî
+		printf("æ¬¢è¿Žæ¥åˆ°æ¸¸æˆï¼Œè¯·é€‰æ‹©...(1/2)\n");
+		menu();//å¼•ç”¨å…¨å±€èœå•
+		scanf("%d", &i);//é€‰é¡¹
 
-		switch (i)//switch·ÖÖ§Ñ¡Ïî
+		switch (i)//switchåˆ†æ”¯é€‰é¡¹
 		{
 		case 1:
-			printf("ÕýÔÚ½øÈëÓÎÏ·...\n");
-			game();//ÓÎÏ·È«¾ÖÒýÓÃ
+			printf("æ­£åœ¨è¿›å…¥æ¸¸æˆ...\n");
+			game();//æ¸¸æˆå…¨å±€å¼•ç”¨
 			break;
 		case 2:
-			printf("ÕýÔÚÍË³öÓÎÏ·...\n");
-			j = 0;//jÎªÁã
+			printf("æ­£åœ¨é€€å‡ºæ¸¸æˆ...\n");
+			j = 0;//jä¸ºé›¶
 			break;
 		default:
-			printf("ÊäÈë´íÎó£¬ÇëÖØÐÂÊäÈë...\n");//ÆäËûÇé¿ö
+			printf("è¾“å…¥é”™è¯¯ï¼Œè¯·é‡æ–°è¾“å…¥...\n");//å…¶ä»–æƒ…å†µ
 			break;
 		}
-	} while (j);//Ñ­»·ÎªÁã£¬¼ÙÖµÌø³öÑ­»·
+	} while (j);//å¾ªçŽ¯ä¸ºé›¶ï¼Œå‡å€¼è·³å‡ºå¾ªçŽ¯
 
-	system("pause");//µ÷ÓÃÏµÍ³²Ëµ¥
+	system("pause");//è°ƒç”¨ç³»ç»Ÿèœå•
 
 	return 0;
 }
