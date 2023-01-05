@@ -1,8 +1,8 @@
-//#define _CRT_SECURE_NO_WARNINGS 1
+#define _CRT_SECURE_NO_WARNINGS 1
 
-//#include<stdio.h>
+#include<stdio.h>
 
-/*
+
 int main(void)
 {
 	int i = 1;
@@ -16,8 +16,8 @@ int main(void)
 	printf("c = %d\n", c);
 	printf("b = %d\n", b);
 	return 0;
-}//¼Ó+
-*/
+}//åŠ +
+
 
 /*
 int main(void)
@@ -33,7 +33,7 @@ int main(void)
 	printf("c = %d\n", c);
 	printf("b = %d\n", b);
 	return 0;
-}//¼õ-
+}//å‡-
 */
 
 /*
@@ -45,7 +45,7 @@ int main(void)
 	c = i * j;
 	printf("c = %d\n", c);
 	return 0;
-}//³Ë*
+}//ä¹˜*
 */
 
 /*
@@ -55,16 +55,16 @@ int main(void)
 	int j = 2;
 	int c = 0;
 	c = i / j;
-	printf("c = %d\n", c);//ÕûÊı1/2ÔÚ¼ÆËã»úÖĞÎª0
+	printf("c = %d\n", c);//æ•´æ•°1/2åœ¨è®¡ç®—æœºä¸­ä¸º0
 
-	float x = 1.0;//±ØĞë¼Ó.0£¬/Á½±ßÖÁÉÙÓĞÒ»¸öÎªfloatÀàĞÍµÄÊı¾İ
+	float x = 1.0;//å¿…é¡»åŠ .0ï¼Œ/ä¸¤è¾¹è‡³å°‘æœ‰ä¸€ä¸ªä¸ºfloatç±»å‹çš„æ•°æ®
 	int  y = 2;
 	float b = 0;
 	b = x / y;
 	printf("b = %f\n", b);
-	printf("b = %.1f\n", b);//±£ÁôĞ¡Êıµãºó1Î»ÓĞĞ§Êı×Ö
+	printf("b = %.1f\n", b);//ä¿ç•™å°æ•°ç‚¹å1ä½æœ‰æ•ˆæ•°å­—
 	return 0;
-}//³ı/
+}//é™¤/
 */
 
 /*
@@ -74,14 +74,14 @@ int main(void)
 	int j = 2;
 	int c = 0;
 	c = i % j;
-	printf("c = %d\n", c);//0/ÈÎºÎÊı¶¼Îª0£¬ÔòÎŞÄ£¿ÉÈ¡
+	printf("c = %d\n", c);//0/ä»»ä½•æ•°éƒ½ä¸º0ï¼Œåˆ™æ— æ¨¡å¯å–
 	printf("\n");
 
 	int i1 = 1;
 	int j1 = 2;
 	int c1 = 0;
 	c1 = i1 % j1;
-	printf("c1 = %d\n", c1);//1Ä£ÈÎºÎÊı¶¼ÎªËü±¾Éí
+	printf("c1 = %d\n", c1);//1æ¨¡ä»»ä½•æ•°éƒ½ä¸ºå®ƒæœ¬èº«
 	printf("\n");
 
 	int i2 = 5;
@@ -96,19 +96,19 @@ int main(void)
 	c4 = i2 % j4;
 	printf("c2 = %d\n", c2);
 	printf("c3 = %d\n", c3);
-	printf("c4 = %d\n", c4);//Ä£±È×ÔÉíĞ¡µÄÊı½á¹ûÎªËü±¾Éí
+	printf("c4 = %d\n", c4);//æ¨¡æ¯”è‡ªèº«å°çš„æ•°ç»“æœä¸ºå®ƒæœ¬èº«
 	printf("\n");
 
 	int x = 5;
 	int y = 2;
 	int b = 0;
 	b = x % y;
-	printf("b = %d\n", b);//ÉÌ2Óà1ÔòÈ¡ÓàÊıÔòÎªÄ£Êı
+	printf("b = %d\n", b);//å•†2ä½™1åˆ™å–ä½™æ•°åˆ™ä¸ºæ¨¡æ•°
 	int x1 = 5;
 	int y1 = 2;
 	int b1 = 0;
 	b1 = x1 % y1 + 1;
-	printf("b1 = %d\n", b1);//È¡Ä£+1
+	printf("b1 = %d\n", b1);//å–æ¨¡+1
 	return 0;
-}//È¡Ä£%
+}//å–æ¨¡%
 */
