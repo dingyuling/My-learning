@@ -1,11 +1,11 @@
-//#define _CRT_SECURE_NO_WARNINGS 1
-//交换两个变量int的值，不能使用第三个变量a=3,b=5交换后a=5,b=3
-//#include<stdio.h>
-//
-//static int a = 3;
-//static int b = 5;
+#define _CRT_SECURE_NO_WARNINGS 1
+//浜ゆ崲涓や釜鍙橀噺int鐨勫�硷紝涓嶈兘浣跨敤绗笁涓彉閲廰=3,b=5浜ゆ崲鍚巃=5,b=3
+#include<stdio.h>
 
-/*
+static int a = 3;
+static int b = 5;
+
+
 int main(void)
 {
 	int c = 0;
@@ -15,7 +15,7 @@ int main(void)
 	printf("a = %d\tb = %d\n", a, b);
 	return 0;
 }
-*/
+
 
 /*
 int main(void)
