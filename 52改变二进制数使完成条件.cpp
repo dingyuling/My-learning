@@ -1,5 +1,5 @@
-/*#define _CRT_SECURE_NO_WARNINGS 1
-//13,01101变为11101
+#define _CRT_SECURE_NO_WARNINGS 1
+//13,01101卤盲脦陋11101
 #include<stdio.h>
 int main(void)
 {
@@ -8,7 +8,7 @@ int main(void)
 	j = j << 4;//10000
 	i = i | j;
 	printf("%d\n", i);
-	//更改回来
+	//赂眉赂脛禄脴脌麓
 	i = i ^ j;
 	printf("%d\n", i);
 	j = ~j;
@@ -16,4 +16,4 @@ int main(void)
 	printf("%d\n", i);
 	return 0;
 }
-*/
+
