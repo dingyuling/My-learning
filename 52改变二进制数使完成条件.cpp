@@ -1,5 +1,5 @@
 #define _CRT_SECURE_NO_WARNINGS 1
-//13,01101±äÎª11101
+//13,01101变为11101
 #include<stdio.h>
 int main(void)
 {
@@ -8,7 +8,7 @@ int main(void)
 	j = j << 4;//10000
 	i = i | j;
 	printf("%d\n", i);
-	//¸ü¸Ä»ØÀ´
+	//变回来
 	i = i ^ j;
 	printf("%d\n", i);
 	j = ~j;
