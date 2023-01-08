@@ -2,7 +2,7 @@
 
 #include<stdio.h>
 
-/*
+
 int main(void)
 {
 	int i = 0;
@@ -22,7 +22,7 @@ int main(void)
 	}
 	return 0;
 }
-*/
+
 
 /*
 int main(void)
@@ -48,8 +48,8 @@ int main(void)
 	printf("%d\t%d\t%d\t%d\n", i1, i2, i3, i4);
 	int i = 2;
 	short j = 10;
-	printf("%d\n", unsigned(sizeof(j = i + j)));//计算的是j
-	printf("%d\n", j);//sizeof不会影响结果
+	printf("%d\n", unsigned(sizeof(j = i + j)));//璁＄畻鐨勬槸j
+	printf("%d\n", j);//sizeof涓嶄細褰卞搷缁撴灉
 	j = i + j;
 	printf("%d\n", j);//12
 	int a = 0;
@@ -96,7 +96,7 @@ int main(void)
 
 	int a = 1;
 	int b = ++a + ++a + ++a;
-	printf("%d\n", b);//问题代码
+	printf("%d\n", b);//闂浠ｇ爜
 	return 0;
 }
 */
