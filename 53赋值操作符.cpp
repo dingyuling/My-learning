@@ -1,8 +1,8 @@
-//#define _CRT_SECURE_NO_WARNINGS 1
+#define _CRT_SECURE_NO_WARNINGS 1
 //
-//#include<stdio.h>
+#include<stdio.h>
 
-/*
+
 int main(void)
 {
 	int money = 10000;
@@ -12,7 +12,7 @@ int main(void)
 	printf("%d\n", money);
 	return 0;
 }
-*/
+
 
 /*
 int main(void)
