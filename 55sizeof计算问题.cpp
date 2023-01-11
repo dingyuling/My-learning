@@ -1,10 +1,10 @@
-/*#define _CRT_SECURE_NO_WARNINGS 1
+#define _CRT_SECURE_NO_WARNINGS 1
 
 #include<stdio.h>
 
-void one(int arr[])//Êı×é´«²Î£¬Êı×éÊ×ÔªËØµÄµØÖ·
+void one(int arr[])//æ•°ç»„ä¼ å‚ï¼Œæ•°ç»„é¦–å…ƒç´ çš„åœ°å€
 {
-	printf("%d\n", unsigned(sizeof(arr)));//¼ÆËãÖ¸Õë±äÁ¿µÄ´óĞ¡
+	printf("%d\n", unsigned(sizeof(arr)));//è®¡ç®—æŒ‡é’ˆå˜é‡çš„å¤§å°
 }
 
 void two(char ch[])
@@ -25,4 +25,3 @@ int main(void)
 
 	return 0;
 }
-*/
