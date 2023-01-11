@@ -1,7 +1,7 @@
-//#define _CRT_SECURE_NO_WARNINGS 1
+#define _CRT_SECURE_NO_WARNINGS 1
 
-//#include<stdio.h>
-/*
+#include<stdio.h>
+
 int main(void)
 {
 	int i = 3;
@@ -16,7 +16,7 @@ int main(void)
 	}
 	return 0;
 }
-*/
+
 
 /*
 int main(void)
