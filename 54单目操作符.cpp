@@ -101,9 +101,29 @@ int main(void)
 }
 */
 
-/**/
-int mian(void)
+/*
+int main(void)
 {
-
+	int i = 10;
+	printf("*i = %p\n", &i);
+	int* j = &i;
+	printf("*j = %d\n", *j);
+	printf("*j = %p\n", &*j);
+	printf("*j = %p\n", &j);//地址不同
+	printf("i = %d\n", i);
+	*j = 20;
+	printf("i = %d\n", i);
 	return 0;
 }
+*/
+
+/*
+int main(void)
+{
+	//int i1 = 3.1415926;
+	//printf("%d\n", i1);
+	int i2 = (int)3.1415926;
+	printf("%d\n", i2);
+	return 0;
+}
+*/
