@@ -1,4 +1,4 @@
-/*#define _CRT_SECURE_NO_WARNINGS 1
+#define _CRT_SECURE_NO_WARNINGS 1
 
 #include<stdio.h>
 
@@ -6,8 +6,7 @@ int main(void)
 {
 	int sum = 0, i = 1, j = 2, a = 3;
 
-	sum = (i += j, j--, ++a, i += j, a -= i);//´Ó×óµ½ÓÒÒÀ´Î¼ÆËã£¬È¡×îºóÒ»¸ö±í´ïÊ½µÄ½á¹û
+	sum = (i += j, j--, ++a, i += j, a -= i);//ä»å·¦åˆ°å³ä¾æ¬¡è®¡ç®—ï¼Œå–æœ€åä¸€ä¸ªè¡¨è¾¾å¼çš„ç»“æœ
 	printf("%d\n", sum);
 	return 0;
 }
-*/
