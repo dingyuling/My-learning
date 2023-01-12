@@ -1,4 +1,4 @@
-/*#define _CRT_SECURE_NO_WARNINGS 1
+#define _CRT_SECURE_NO_WARNINGS 1
 
 #include<stdio.h>
 
@@ -14,8 +14,7 @@ int main(void)
 	{
 		printf("-1\n");
 	}
-	int a = (i < j ? 1 : -1);//½á¹ûÎªÕæµÚÒ»¸ö£¬Îª¼ÙµÚ¶þ¸ö
+	int a = (i < j ? 1 : -1);//ç»“æžœä¸ºçœŸç¬¬ä¸€ä¸ªï¼Œä¸ºå‡ç¬¬äºŒä¸ª
 	printf("%d\n", a);
 	return 0;
 }
-*/
