@@ -1,8 +1,8 @@
-//#define _CRT_SECURE_NO_WARNINGS 1
+#define _CRT_SECURE_NO_WARNINGS 1
 
-//#include<stdio.h>
+#include<stdio.h>
 
-/*
+
 int main(void)
 {
 	char i = 1;
@@ -16,14 +16,14 @@ int main(void)
 	//10000000
 	//11111111
 	//10000000
-	printf("%d\n", a);//%dÕûĞÎÔËËã£¬ĞèÒªÔÙ´Î×ª»»
+	printf("%d\n", a);//%dæ•´å½¢è¿ç®—ï¼Œéœ€è¦å†æ¬¡è½¬æ¢
 	//11111111111111111111111110000000
 	//11111111111111111111111101111111
 	//10000000000000000000000010000000
 
 	return 0;
 }
-*/
+
 
 /*
 int main(void)
@@ -62,7 +62,7 @@ int main(void)
 	printf("%d\n", unsigned(sizeof(i)));
 	printf("%d\n", unsigned(sizeof(+i)));
 	printf("%d\n", unsigned(sizeof(-i)));
-	printf("%d\n", unsigned(sizeof(!i)));//±àÒëÆ÷ÎÊÌâ
+	printf("%d\n", unsigned(sizeof(!i)));//ç¼–è¯‘å™¨é—®é¢˜
 	return 0;
 }
 */
