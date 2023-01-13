@@ -1,15 +1,15 @@
-//#define _CRT_SECURE_NO_WARNINGS 1
+#define _CRT_SECURE_NO_WARNINGS 1
 
-//#include<stdio.h>
+#include<stdio.h>
 
-/*
+
 int main(void)
 {
 	int arr[] = { 1,2,3,4,5,6,7,8,9,10 };
-	printf("%d\n", arr[1]);//·ÃÎÊÏÂ±êÎªÒ»µÄ
+	printf("%d\n", arr[1]);//è®¿é—®ä¸‹æ ‡ä¸ºä¸€çš„
 	return 0;
 }
-*/
+
 
 /*
 int sum(int a, int b)
@@ -45,11 +45,11 @@ int main(void)
 	struct student* pb = &a1;
 	printf("name:%s\n", (*pb).name);
 	printf("Student_number:%s\n", (*pb).Student_number);
-	printf("age:%d\n", (*pb).age);//µØÖ·µ÷ÓÃ
+	printf("age:%d\n", (*pb).age);//åœ°å€è°ƒç”¨
 
 	printf("name:%s\n", pb->name);
 	printf("Student_number:%s\n", pb->Student_number);
-	printf("age:%d\n", pb->age);//Ö¸Ïò
+	printf("age:%d\n", pb->age);//æŒ‡å‘
 	return 0;
 }
 */
