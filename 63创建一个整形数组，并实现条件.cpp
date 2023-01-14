@@ -1,7 +1,7 @@
-/*#define _CRT_SECURE_NO_WARNINGS 1
-//ÊµÏÖº¯Êıinit()³õÊ¼»¯ÎªÁã
-//ÊµÏÖº¯Êıprint()´òÓ¡Êı×éµÄÃ¿¸öÔªËØ
-//ÊµÏÖº¯Êıreverse()Êı×éµÄÄæĞò
+#define _CRT_SECURE_NO_WARNINGS 1
+//å®ç°å‡½æ•°init()åˆå§‹åŒ–ä¸ºé›¶
+//å®ç°å‡½æ•°print()æ‰“å°æ•°ç»„çš„æ¯ä¸ªå…ƒç´ 
+//å®ç°å‡½æ•°reverse()æ•°ç»„çš„é€†åº
 #include<stdio.h>
 
 void init(int arr[], int i)
@@ -49,4 +49,3 @@ int main(void)
 	print(arr, i);
 	return 0;
 }
-*/
