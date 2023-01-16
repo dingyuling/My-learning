@@ -1,7 +1,7 @@
-//#define _CRT_SECURE_NO_WARNINGS 1
-//#include<stdio.h>
+#define _CRT_SECURE_NO_WARNINGS 1
+#include<stdio.h>
 
-/*
+
 int main(void)
 {
 	int arr[10] = { 0 };
@@ -19,7 +19,7 @@ int main(void)
 	}
 	return 0;
 }
-*/
+
 
 /*
 int main(void)
@@ -35,5 +35,5 @@ int main(void)
 	printf("%d\n", 2[p]);
 	printf("%d\n", p[2]);
 	return 0;
-}//ת��
+}//×ª»»
 */
