@@ -1,7 +1,7 @@
-//#define _CRT_SECURE_NO_WARNINGS 1
-//#include<stdio.h>
+#define _CRT_SECURE_NO_WARNINGS 1
+#include<stdio.h>
 
-/*
+
 #define zz 10
 
 int arr[zz];
@@ -9,13 +9,13 @@ int* p;
 
 int main(void)
 {
-	for (p = &arr[0]; p < &arr[zz];)//Ö¸Õë¹ØÏµÔËËã£¬±È½Ï´óÐ¡
+	for (p = &arr[0]; p < &arr[zz];)//æŒ‡é’ˆå…³ç³»è¿ç®—ï¼Œæ¯”è¾ƒå¤§å°
 	{
-		*p ++ = 0;//ÏÈ¸³Öµºó++//Ö¸Õë¼Ó¼õÔËËã
+		*p ++ = 0;//å…ˆèµ‹å€¼åŽ++//æŒ‡é’ˆåŠ å‡è¿ç®—
 	}
 	return 0;
-}//Ö¸ÕëÓÉµÍµ½¸ß
-*/
+}//æŒ‡é’ˆç”±ä½Žåˆ°é«˜
+
 
 /*
 int main(void)
@@ -26,5 +26,5 @@ int main(void)
 	int c = *pb - *pa;
 	printf("%d\n", c);
 	return 0;
-}//Ö¸Õë¼õÈ¥Ö¸Õë
+}//æŒ‡é’ˆå‡åŽ»æŒ‡é’ˆ
 */
