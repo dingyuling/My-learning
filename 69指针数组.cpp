@@ -1,11 +1,10 @@
-/*#define _CRT_SECURE_NO_WARNINGS 1
+#define _CRT_SECURE_NO_WARNINGS 1
 
 int main(void)
 {
 	int arr[10];
 	char ch[10];
 	int* a[10];
-	char* c[10];//存放指针的数组
+	char* c[10];//麓忙路脜脰赂脮毛碌脛脢媒脳茅
 	return 0;
 }
-*/
