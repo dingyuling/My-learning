@@ -1,4 +1,4 @@
-/*#define _CRT_SECURE_NO_WARNINGS 1
+#define _CRT_SECURE_NO_WARNINGS 1
 
 #include<stdio.h>
 
@@ -29,7 +29,7 @@ void printf2(struct book* a1)
 
 int main(void)
 {
-	struct book a = { {"20230117",1453,"∂°”Ù¡È"},"Github'book",20,"202301171456" };
+	struct book a = { {"20230117",1453,"¬∂¬°√ì√¥√Å√©"},"Github'book",20,"202301171456" };
 	printf("%s\n", a.ri_qi);
 	printf("%d\n", a.yie_shu);
 	printf("%s\n", a.zuo_zhe);
@@ -64,4 +64,3 @@ int main(void)
 
 	return 0;
 }
-*/
