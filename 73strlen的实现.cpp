@@ -1,4 +1,4 @@
-/*#define _CRT_SECURE_NO_WARNINGS 1
+#define _CRT_SECURE_NO_WARNINGS 1
 //const
 #include<stdio.h>
 #include<string.h>//strlen
@@ -22,4 +22,3 @@ int main(void)
 	printf("%d\n", int(my_strlen(ch)));
 	return 0;
 }
-*/
