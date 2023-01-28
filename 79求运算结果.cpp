@@ -1,4 +1,4 @@
-/*#define _CRT_SECURE_NO_WARNINGS 1
+#define _CRT_SECURE_NO_WARNINGS 1
 
 #include<stdio.h>
 
@@ -10,5 +10,4 @@ int main(void)
 	c *= a + b;
 	printf("%d\n", c);//90
 	return 0;
-}//赋值运算符优先级最小
-*/
+}//璧嬪�艰繍绠楃鏈�浣庝紭鍏堢骇
