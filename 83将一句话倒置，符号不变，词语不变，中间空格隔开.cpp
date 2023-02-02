@@ -1,7 +1,7 @@
-/*#define _CRT_SECURE_NO_WARNINGS 1
-//Èı²½·­×ª·¨
-//1.Õû¸ö×Ö·û´®
-//2.Ã¿¸öµ¥´Ê
+#define _CRT_SECURE_NO_WARNINGS 1
+//ä¸‰æ­¥ç¿»è½¬æ³•
+//1.æ•´ä¸ªå­—ç¬¦ä¸²
+//2.æ¯ä¸ªå•è¯
 #include<stdio.h>
 #include<string.h>
 
@@ -51,4 +51,3 @@ int main(void)
 	printf("%s\n", ch2);
 	return 0;
 }
-*/
