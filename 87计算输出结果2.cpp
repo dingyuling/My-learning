@@ -1,34 +1,34 @@
-//#define _CRT_SECURE_NO_WARNINGS 1
-//
-//#include<stdio.h>
+#define _CRT_SECURE_NO_WARNINGS 1
+
+#include<stdio.h>
 
 //int main(void)
 //{
 //	unsigned int i;
 //
-//	for (i = 9; i >= 0; i--)//ºã³ÉÁ¢£¬ÎŞ·ûºÅi£¬²»»áĞ¡ÓÚ0
+//	for (i = 9; i >= 0; i--)//æ’æˆç«‹ï¼Œæ— ç¬¦å·iï¼Œä¸ä¼šå°äº0
 //	{
 //		printf("%u\n", i);
 //	}
-//	//ËÀÑ­»·
+//	//æ­»å¾ªç¯
 //	return 0;
 //}
 
-//#include<string.h>
-//int main(void)
-//{
-//	char a[1000];
-//	int i = 0;
-//
-//	for (i = 0; i < 1000; i++)
-//	{
-//		a[i] = -1 - i;
-//	}
-//	//-1£¬-2£¬-3...-127£¬-128£¬127£¬126...2£¬1£¬0£¬-1...
-//	printf("%d\n", strlen(a));//Çó×Ö·û´®³¤¶È£¬ÕÒµ½0
-//
-//	return 0;
-//}
+#include<string.h>
+int main(void)
+{
+	char a[1000];
+	int i = 0;
+
+	for (i = 0; i < 1000; i++)
+	{
+		a[i] = -1 - i;
+	}
+	//-1ï¼Œ-2ï¼Œ-3...-127ï¼Œ-128ï¼Œ127ï¼Œ126...2ï¼Œ1ï¼Œ0ï¼Œ-1...
+	printf("%d\n", strlen(a));//æ±‚å­—ç¬¦ä¸²é•¿åº¦ï¼Œæ‰¾åˆ°0
+
+	return 0;
+}
 
 
 //unsigned char i = 0;
@@ -39,6 +39,6 @@
 //	{
 //		printf("hello world!\n");
 //	}
-//	//ËÀÑ­»·
+//	//æ­»å¾ªç¯
 //	return 0;
 //}
